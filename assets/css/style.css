@@ -7,3 +7,14 @@
   object-fit: cover;
   max-height: 500px;
 }
+
+.flag {
+  height: 1.5em;
+  vertical-align: bottom;
+}
+
+/* remove underline and color from links in tables */
+td a {
+  color: var(--bs-dark) !important;
+  text-decoration: none;
+}
