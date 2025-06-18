@@ -7,6 +7,14 @@
   max-height: 500px;
 }
 
+/* add margins to lists for alignment inside of container */
+ol {
+  margin-left: 1rem;
+}
+ul {
+  margin-left: 1.5rem;
+}
+
 section .solving-image {
   width: 10em;
   height: 10em;
