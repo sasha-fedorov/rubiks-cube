@@ -10,6 +10,7 @@
 /* add margins to lists for alignment inside of container */
 ol {
   margin-left: 1rem;
+  padding-left: 2rem;
 }
 ul {
   margin-left: 1.5rem;
