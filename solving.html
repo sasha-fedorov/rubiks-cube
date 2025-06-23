@@ -226,7 +226,7 @@
         <p>
           ✅ Tip: If a corner is already in the bottom layer but in the wrong
           spot or facing the wrong way, no problem. Just use any of the moves
-          above to “pop it out,” then use the right move to place it back
+          above to “pop it out”, then use the right move to place it back
           correctly.
         </p>
       </section>
@@ -234,14 +234,71 @@
       <section id="middle" class="row">
         <h4>🟦 Step 3: Solve the Middle Layer Edges</h4>
         <p>
-          Now that the white layer is complete, flip the cube so white is on the
-          bottom. Focus on placing the edge pieces in the middle layer.
+          Now it’s time to fill in the middle layer edges (the pieces between
+          the centers, without any yellow on them).
         </p>
-        <img src="" class="solving-image" alt="Middle layer edge insertion" />
+        <div
+          class="d-flex flex-wrap justify-content-center justify-content-sm-start"
+        >
+          <img
+            src="assets/images/solving/middle-solved.png"
+            class="solving-image"
+            alt="Rotations representation"
+          />
+        </div>
         <p>
-          You'll use one of two algorithms depending on where the piece needs to
-          go (left or right). Don't worry—they're easy to memorize with a little
-          practice!
+          Your goal here is to move edge pieces from the top layer into the
+          middle layer — placing them between matching center pieces on each
+        </p>
+        <p>
+          The top face (usually yellow) should still be scrambled, and we'll now
+          be using it to find and insert the correct edges into the middle.
+        </p>
+        <h6>🧩 Step-by-Step:</h6>
+        <ol class="ms-4">
+          <li>
+            Look at the top layer for edge pieces that don't have yellow on
+            them.
+          </li>
+          <li>
+            Once you find one, match its front color with the center piece on
+            that face (by turning the top layer left or right).
+          </li>
+          <li>
+            Then, check which side the other color needs to go — left or right.
+            Use the right move below depending on the direction.
+          </li>
+        </ol>
+        <div
+          class="d-flex flex-wrap justify-content-center justify-content-md-start"
+        >
+          <div class="text-center">
+            <p>If the edge to go to the left:</p>
+            <img
+              src="assets/images/solving/middle-edge-to-left.png"
+              class="solving-image"
+              alt="Edge going to the left"
+            />
+            <p><strong>U' L' U L U F U' F'</strong></p>
+          </div>
+          <div class="text-center">
+            <p>And to go to the right:</p>
+            <img
+              src="assets/images/solving/middle-edge-to-right.png"
+              class="solving-image"
+              alt="Edge going to the right"
+            />
+            <p><strong>U R U' R' U' F' U F</strong></p>
+          </div>
+        </div>
+        <p>
+          Repeat this process until all four middle layer edges are in the
+          correct positions!
+        </p>
+        <p>
+          ✅ Tip: If a middle edge is in the wrong spot or flipped, just use one
+          of the moves above to pop it out — then place it again the right way.
+          Just like you did with the corners!
         </p>
       </section>
 
