@@ -7,10 +7,12 @@
   max-height: 500px;
 }
 
-/* add margins to lists for alignment inside of container */
+/* add spacing to lists for proper alignment within the container */
 ol {
-  margin-left: 1rem;
-  padding-left: 2rem;
+  margin-left: 1.25rem;
+}
+ol li {
+  padding-left: 0.25rem;
 }
 ul {
   margin-left: 1.5rem;
