@@ -542,19 +542,72 @@
       </section>
 
       <section id="finish" class="row">
-        <h4>🧩 Step 7: Finish the Cube (Position Yellow Edges)</h4>
+        <h4>🟨 Step 7: Rotate the Yellow Corners</h4>
+        <p>This is it — the final step!</p>
         <p>
-          Last step! You'll rotate the top edges into the correct positions.
-          Sometimes, you'll need to perform the final algorithm multiple times.
-          <br />
-          Algorithm:
+          All your pieces should now be in the right spots. The only thing left
+          is to twist the yellow corners so the yellow stickers face up, and the
+          cube is fully solved.
         </p>
-        <p>F2 U L R' F2 L' R U F2</p>
-        <img src="" class="solving-image" alt="Final solved cube" />
+        <div
+          class="d-flex flex-wrap justify-content-center justify-content-sm-start"
+        >
+          <img
+            src="assets/images/solving/solved.png"
+            class="solving-image"
+            alt="Final solved cube"
+          />
+        </div>
+
+        <h6>🔍 What to Look For:</h6>
+        <p>
+          Each yellow corner is in the correct position, but some are turned the
+          wrong way — yellow might be facing the side instead of up.
+        </p>
+        <p>We'll fix each corner one at a time, using a simple move.</p>
+
+        <h6>🔄 The Move to Use:</h6>
+        <div
+          class="d-flex flex-wrap justify-content-center justify-content-sm-start"
+        >
+          <div class="text-center">
+            <img
+              src="assets/images/solving/top-corners-positioned-to-rotate.png"
+              class="solving-image"
+              alt="Top edges positioned to rotate"
+            />
+            <p><strong>U R U' L' U R' U' L</strong></p>
+          </div>
+        </div>
+        <p>
+          This move rotates one corner clockwise (without moving anything else
+          in the cube).
+        </p>
+        <p>You might need to do it 2 or 4 times to fully turn the piece.</p>
+
+        <h6>🔁 What to Do:</h6>
+        <ol>
+          <li>
+            Turn the whole cube so the corner you want to rotate is in the
+            top-right of the front face.
+          </li>
+          <li>Do R' D' R D repeatedly until the yellow part is facing up.</li>
+          <li>
+            Only turn the top face (U) to move the next unsolved corner into the
+            top-right — keep the rest of the cube in the same orientation.
+          </li>
+          <li>Repeat the move on each corner until all four are solved.</li>
+        </ol>
+
+        <p>
+          ✅ Tip: Don't panic if the rest of the cube looks scrambled while
+          you're twisting a corner — it'll go back to normal when that corner is
+          done!
+        </p>
       </section>
 
       <section id="related-pages" class="row">
-        <h4>🎉 You Did It!</h4>
+        <h4>🎉 And that's it — your cube is solved!</h4>
         <p>
           That's it—you've solved the Rubik's Cube! Once you've done it a few
           times, you'll start to recognize patterns and solve faster.
