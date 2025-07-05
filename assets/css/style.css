@@ -7,6 +7,27 @@
   max-height: 500px;
 }
 
+.solving-image {
+  width: 10em;
+  height: 10em;
+  padding: 0;
+  margin: 0 1.5rem;
+}
+
+.tree-images-box-padding {
+  padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .tree-images-margin {
+    margin: 0 1rem;
+  }
+
+  .tree-images-box-padding {
+    padding: 0 0.5rem;
+  }
+}
+
 /* add spacing to lists for proper alignment within the container */
 ol {
   margin-left: 1.25rem;
@@ -16,13 +37,6 @@ ol li {
 }
 ul {
   margin-left: 1.5rem;
-}
-
-section .solving-image {
-  width: 10em;
-  height: 10em;
-  padding: 0;
-  margin: 0 2rem 1rem 2rem;
 }
 
 .flag {
