@@ -48,17 +48,6 @@ strong {
   font-weight: 600;
 }
 
-/* add spacing to lists for proper alignment within the container */
-ol {
-  margin-left: 1.25rem;
-}
-ol li {
-  padding-left: 0.25rem;
-}
-ul {
-  margin-left: 1.5rem;
-}
-
 /* remove underline and color from links in tables */
 td a {
   color: var(--bs-dark);
