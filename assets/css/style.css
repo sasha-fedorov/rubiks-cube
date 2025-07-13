@@ -48,7 +48,6 @@ strong {
   font-weight: 600;
 }
 
-/* remove underline and color from links in tables */
 td a {
   color: var(--bs-dark);
   text-decoration: underline;
