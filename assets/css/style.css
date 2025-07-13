@@ -51,7 +51,9 @@ strong {
 /* remove underline and color from links in tables */
 td a {
   color: var(--bs-dark);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: var(--bs-gray-600);
 }
 
 td {
