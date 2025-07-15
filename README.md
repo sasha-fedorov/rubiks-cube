@@ -5,7 +5,7 @@
 
 This is a personal portfolio project for my course, focused on the **3×3 Rubik's Cube**.The website consists of three pages that introduce the cube, teach how to solve it, and explore the world of speedcubing.
 
-![Responsive Mockup](./documentation/mockup.webp)
+![Responsive Mockup](./documentation/images/mockup.webp)
 
 ## Deployment
 
@@ -75,7 +75,7 @@ During development, I used **[Chrome DevTools](https://developer.chrome.com/docs
 
 To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed on GitHub Pages version of the website. The final Lighthouse scores were all **97 or higher**, and changes made to improve these results can also be found in the commit history.
 
-![Lighthouse Report Screenshot](./documentation/lighthouse.png)
+![Lighthouse Report Screenshot](./documentation/images/lighthouse.png)
 
 
 ## License / Usage
