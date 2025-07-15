@@ -1,4 +1,4 @@
-# 3x3 Rubik's Cube Website <img src="./assets/images/favicon.svg" alt="Website Favicon" width="24" style="vertical-align: middle;">
+# ![favicon](./documentation/images/favicon-20-20.svg) 3x3 Rubik's Cube Website
 
 
 ## Description
