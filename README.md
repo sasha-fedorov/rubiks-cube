@@ -7,6 +7,7 @@ This is a personal portfolio project for my course, focused on the **3×3 Rubik'
 
 ![Responsive Mockup](./documentation/images/mockup.webp)
 
+
 ## Deployment
 
 This website is **deployed using GitHub Pages** and can be accessed at: [https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)
@@ -69,13 +70,29 @@ A look into the competitive side of cubing:
 - **[Am I Responsive](https://ui.dev/amiresponsive)** — used to create website mockup for documentation
 
 
-## Validation & Testing
+## Validation
+
+To ensure clean, standards-compliant code, I regularly used the **[W3C Web Validator extension](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)** in Visual Studio Code throughout the development process.
+
+I also validated the deployed version of the website using the **official W3C tools**:
+
+### HTML Validation
+- [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F)
+- [How to Solve Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2Fsolving.html)
+- [Speedcubing Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2Fspeedcubing.html)
+
+### CSS Validation
+- [Main CSS File](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+**All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
 
-I also performed **HTML and CSS validation** using the **[W3C Web Validator extension ](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)** for VS Code during development, and double-checked the final deployed version with the official **[W3C HTML Validator](https://validator.w3.org/)** and **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** to ensure clean, standards-compliant code. All tests passed with no errors or warnings.
+## Testing
 
+### Bugs
 During development, I used **[Chrome DevTools](https://developer.chrome.com/docs/devtools)** to test and debug the website across different screen sizes and devices. This helped identify and fix various layout bugs, alignment issues, and visual inconsistencies. Most of these improvements are documented in the project's **commit history**.
 
+### Lighthouse
 To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed on GitHub Pages version of the website. The final Lighthouse scores were all **97 or higher**, and changes made to improve these results can also be found in the commit history.
 
 ![Lighthouse Report Screenshot](./documentation/images/lighthouse.png)
