@@ -11,6 +11,9 @@ This is a personal portfolio project for my course, focused on the **3×3 Rubik'
 
 This website is **deployed using GitHub Pages** and can be accessed at: [https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)
 
+Deploying the static website using GitHub Pages was straightforward.
+I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via the link provided above.
+
 ## Goals
 
 - Practice HTML/CSS and content structure
