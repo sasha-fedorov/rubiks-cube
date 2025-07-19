@@ -72,9 +72,7 @@ A look into the competitive side of cubing:
 
 ## Validation
 
-To ensure clean, standards-compliant code, I regularly used the **[W3C Web Validator extension](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)** in Visual Studio Code throughout the development process.
-
-I also validated the deployed version of the website using the **official W3C tools**:
+I validated the deployed version of the website using the **official W3C tools**:
 
 ### HTML Validation
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F)
@@ -86,16 +84,19 @@ I also validated the deployed version of the website using the **official W3C to
 
 **All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
+You can find the validation-related fixes made during development by [this link](./documentation/testing.md#validation).
 
-## Testing
+## Testing and Bugfixing
 
-### Bugs
-During development, I used **[Chrome DevTools](https://developer.chrome.com/docs/devtools)** to test and debug the website across different screen sizes and devices. This helped identify and fix various layout bugs, alignment issues, and visual inconsistencies. Most of these improvements are documented in the project's **commit history**.
+For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[testing.md](./documentation/testing.md)**.
 
-### Lighthouse
-To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed on GitHub Pages version of the website. The final Lighthouse scores were all **97 or higher**, and changes made to improve these results can also be found in the commit history.
+## Lighthouse
+
+To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed version on GitHub Pages. The final Lighthouse scores were all **97 or higher**.
 
 ![Lighthouse Report Screenshot](./documentation/images/lighthouse.png)
+
+Details on the improvements made to achieve high Lighthouse scores are available  [here](./documentation/testing.md#lighthouse).
 
 
 ## License / Usage
