@@ -10,7 +10,7 @@ This is a personal portfolio project for my course, focused on the **3×3 Rubik'
 
 ## Deployment
 
-This website is **deployed using GitHub Pages** and can be accessed at: [https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)
+This website is **deployed using GitHub Pages** and can be accessed at: **[https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)**
 
 Deploying the static website using GitHub Pages was straightforward.
 I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via the link provided above.
@@ -52,14 +52,6 @@ A look into the competitive side of cubing:
 - Fun records and robot achievements
 
 
-## Credits
-
-- Solving method and structure: [SolveTheCube.com](https://solvethecube.com/)
-- World records and official data: [World Cube Association (WCA)](https://www.worldcubeassociation.org/)
-- Photos, data tables, and record timelines sourced from [WCA](https://www.worldcubeassociation.org/) (used under fair use for educational purposes)
-- Flag emojis representing competitors regions: [OpenMoji](https://openmoji.org/)
-
-
 ## Tools & Services
 
 - **[VS Code](https://code.visualstudio.com/)** — used as the main code editor for development
@@ -99,7 +91,16 @@ To evaluate and enhance the site’s performance, accessibility, best practices,
 Details on the improvements made to achieve high Lighthouse scores are available  [here](./documentation/testing.md#lighthouse).
 
 
+## Credits
+
+- Solving method and structure: [SolveTheCube.com](https://solvethecube.com/)
+- World records and official data: [World Cube Association (WCA)](https://www.worldcubeassociation.org/)
+- Photos, data tables, and record timelines sourced from [WCA](https://www.worldcubeassociation.org/) (used under fair use for educational purposes)
+- Flag emojis representing competitors regions: [OpenMoji](https://openmoji.org/)
+
+
 ## License / Usage
 
-This project is for **educational and non-commercial use only**.  
-All third-party data and images are credited to their original sources.
+This project is for **educational and non-commercial use only**.
+
+All third-party data and images are credited to their original sources in [Credits](#credits).
