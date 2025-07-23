@@ -4,12 +4,8 @@ This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The w
 
 ![Responsive Mockup](./documentation/images/mockup.webp)
 
-## Deployment
-
 This website is **deployed using GitHub Pages** and can be accessed at: **[https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)**
 
-Deploying the static website using GitHub Pages was straightforward.
-I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via the link provided above.
 
 ## User Experience (UX) & User Stories
 
@@ -251,6 +247,11 @@ I validated the deployed version of the website using the **official W3C tools**
 **All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
 You can find the validation-related fixes made during development by [this link](./documentation/testing.md#validation).
+
+## Deployment Process
+
+Deploying the static website using GitHub Pages was straightforward.
+I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via **[the link](https://sasha-fedorov.github.io/rubiks-cube/)**.
 
 ## Testing and Bugfixing
 
