@@ -1,12 +1,10 @@
 # ![favicon](./documentation/images/favicon-20-20.svg) 3x3 Rubik's Cube Website
 
-
 ## Description
 
 This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The website consists of three pages that introduce the cube, teach how to solve it, and explore the world of speedcubing.
 
 ![Responsive Mockup](./documentation/images/mockup.webp)
-
 
 ## Deployment
 
@@ -14,7 +12,6 @@ This website is **deployed using GitHub Pages** and can be accessed at: **[https
 
 Deploying the static website using GitHub Pages was straightforward.
 I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via the link provided above.
-
 
 ## User Experience (UX) & User Stories
 
@@ -79,7 +76,6 @@ This section outlines the core user experience principles guiding the website's 
   - **UX Considerations:**
     - **Performance & Interaction:** The human solve video is initially hidden under a button. This reduces initial page load time and provides an interactive element, saving screen space for users who choose not to watch it immediately.
     - **Optimized Layout:** The robotic solve video utilizes a responsive layout adapted to its 9:16 (YouTube Shorts) format, positioning it optimally (right of details on large screens, below on small screens) for best viewing experience.
-
 
 ## Design
 
@@ -165,23 +161,24 @@ The website was designed with a **mobile-first approach**, ensuring core usabili
 - **Solving Page - Instructional Highlights:**
   - Images of current/finished steps, combinations, and tips are **highlighted with a border and a light gray background**. This design decision ensures these crucial elements are easily discoverable, visually distinct, and serve as key reference points for both new learners and advanced users returning for specific content.
 - **Speedcubing Page - World Record Table:**
+
   - The table is **responsive but disables word wrap** and introduces a **horizontal scrollbar** when content exceeds display width. This approach was chosen because compressing columns made information unreadable. The most critical information (date, time, competitor name, and region) remains visible, with less vital details like "competition" being the first to hide.
   - **Flag Emojis:** The use of flag emojis for competitor regions efficiently saves space while still providing intuitive visual information.
 
     ![Tables comparison](./documentation/images/tables-comparison.webp)
 
 - **Speedcubing Page - Competitor Cards:**
+
   - These cards serve as a **visual extension of the World Record table**, introducing important names with key information and interesting facts.
   - Their design is **responsive**, arranging them side-by-side on larger screens and stacking them vertically on smaller screens, maintaining a consistent image-to-content ratio and aesthetic.
 
     ![Tables comparison](./documentation/images/cube-legends-layout.webp)
 
-
 - **Speedcubing Page - Human Solve WR Video:**
+
   - The video is **hidden under a button**, reducing initial page load time and offering an interactive element. This also saves valuable screen space for users who may not wish to view the video immediately.
 
     ![Button interaction](./documentation/images/human-solve-interaction.webp)
-
 
 - **Speedcubing Page - Robotic Solve Video:**
 
@@ -214,17 +211,30 @@ To evaluate and enhance the site’s performance, accessibility, best practices,
 
 Details on the improvements made to achieve high Lighthouse scores are available [here](./documentation/testing.md#lighthouse).
 
+## Technologies Used
 
-## Tools & Services
+### Languages and Frameworks
 
-- **[VS Code](https://code.visualstudio.com/)** — used as the main code editor for development
-- **[Chrome DevTools](https://developer.chrome.com/docs/devtools)** — used for debugging, testing website features and responsiveness
-- **[Figma](https://www.figma.com/)** — used to create site favicon and documentation images
-- **[ChatGPT](https://chat.openai.com/)** — helped generate written content (but not code) for the website pages and this README
-- **[Gemini](https://gemini.google.com/)** — helped generate content for this README
-- **[WebP Converter](https://developers.google.com/speed/webp)** — used to resize and compress images for web optimization
-- **[Am I Responsive](https://ui.dev/amiresponsive)** — used to create website mockup for documentation
+- HTML5
+- CSS3
+- Bootstrap 5
 
+### Tools & Programs
+
+- **[VS Code](https://code.visualstudio.com/)** – used as the main code editor for development
+- **[Google Chrome](https://www.google.com/chrome/)** – utilized for Browse, testing, and verifying website functionality across various user experiences
+- **[Chrome DevTools](https://developer.chrome.com/docs/devtools)** – used for debugging, testing website features and responsiveness
+- **[Figma](https://www.figma.com/)** – used to create site favicon and documentation images
+- **[WebP Converter](https://developers.google.com/speed/webp)** – used to resize and compress images for web optimization
+- **[Fork](https://fork.dev/)** – used as a Git client for version control and managing project commits
+
+### Services
+
+- **[GitHub](https://github.com/)** – hosted the project repository for version control and collaboration
+- **[GitHub Pages](https://pages.github.com/)** – deployed the static website for public access
+- **[ChatGPT](https://chat.openai.com/)** – helped generate written content (but not code) for the website pages and this README
+- **[Gemini](https://gemini.google.com/)** – helped generate content for this README
+- **[Am I Responsive](https://ui.dev/amiresponsive)** – used to create website mockup for documentation
 
 ## Validation
 
@@ -244,11 +254,9 @@ I validated the deployed version of the website using the **official W3C tools**
 
 You can find the validation-related fixes made during development by [this link](./documentation/testing.md#validation).
 
-
 ## Testing and Bugfixing
 
 For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[testing.md](./documentation/testing.md)**.
-
 
 ## Credits
 
@@ -256,7 +264,6 @@ For detailed information about testing, bugfixing, validation, and performance i
 - World records and official data: [World Cube Association (WCA)](https://www.worldcubeassociation.org/)
 - Photos, data tables, and record timelines sourced from [WCA](https://www.worldcubeassociation.org/) (used under fair use for educational purposes)
 - Flag emojis representing competitors regions: [OpenMoji](https://openmoji.org/)
-
 
 ## License / Usage
 
