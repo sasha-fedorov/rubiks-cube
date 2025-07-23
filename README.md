@@ -6,6 +6,32 @@ This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The w
 
 This website is **deployed using GitHub Pages** and can be accessed at: **[https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)**
 
+## Contents
+
+- [User Experience (UX) & User Stories](#user-experience-ux--user-stories)
+  - [User Roles](#user-roles)
+  - [Features & User Stories](#features--user-stories)
+    - 1. [About the Cube (Main Page)](#1-about-the-cube-main-page)
+    - 2. [How to Solve It (Solving Page)](#2-how-to-solve-it-solving-page)
+    - 3. [Speedcubing (Speedcubing Page)](#3-speedcubing-speedcubing-page)
+  - [Design](#design)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Features (Design Aspect)](#features-design-aspect)
+  - [Accessibility](#accessibility)
+  - [Lighthouse](#lighthouse)
+- [Technologies Used](#technologies-used)
+  - [Languages and Frameworks](#languages-and-frameworks)
+  - [Tools & Programs](#tools--programs)
+  - [Services](#services)
+- [Validation](#validation)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
+- [Deployment Process](#deployment-process)
+- [Testing and Bugfixing](./documentation/testing.md)
+- [Credits](#credits)
+- [License / Usage](#license--usage)
 
 ## User Experience (UX) & User Stories
 
