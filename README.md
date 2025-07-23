@@ -1,7 +1,5 @@
 # ![favicon](./documentation/images/favicon-20-20.svg) 3x3 Rubik's Cube Website
 
-## Description
-
 This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The website consists of three pages that introduce the cube, teach how to solve it, and explore the world of speedcubing.
 
 ![Responsive Mockup](./documentation/images/mockup.webp)
