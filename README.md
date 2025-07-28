@@ -1,8 +1,8 @@
-# ![favicon](./documentation/images/favicon-20-20.svg) 3x3 Rubik's Cube Website
+# ![favicon](documentation/images/favicon-20-20.svg) 3x3 Rubik's Cube Website
 
 This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The website consists of three pages that introduce the cube, teach how to solve it, and explore the world of speedcubing.
 
-![Responsive Mockup](./documentation/images/mockup.webp)
+![Responsive Mockup](documentation/images/mockup.webp)
 
 This website is **deployed using GitHub Pages** and can be accessed at: **[https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)**
 
@@ -29,7 +29,7 @@ This website is **deployed using GitHub Pages** and can be accessed at: **[https
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
 - [Deployment Process](#deployment-process)
-- [Testing and Bugfixing](./documentation/testing.md)
+- [Testing and Bugfixing](documentation/testing.md)
 - [Credits](#credits)
 - [License / Usage](#license--usage)
 
@@ -114,7 +114,7 @@ The primary inspiration for the website's color scheme was to achieve a **clean,
   - **Current World Record in Table:** Highlighted using background color `table-succes: #d1e7dd` to gently draw attention to the most recent achievement.
   - **"Watch Current WR" Button:** Styled with `btn-success: #198754` to provide a clear, actionable call-to-action without being overly vibrant.
 
-![Color scheme](./documentation/images/color-scheme.webp)
+![Color scheme](documentation/images/color-scheme.webp)
 
 - **Favicon:** Even the website's favicon (a Rubik's Cube) adheres to Bootstrap's primary colors:
 
@@ -122,7 +122,7 @@ The primary inspiration for the website's color scheme was to achieve a **clean,
   - Right Face: `bs-warning: #ffc107`
   - Left Face: `bs-danger: #dc3545`
 
-![Favicon color scheme](./documentation/images/favicon-color-scheme.webp)
+![Favicon color scheme](documentation/images/favicon-color-scheme.webp)
 
 ### Typography
 
@@ -134,11 +134,11 @@ The website's typography is predominantly based on **Bootstrap's standard typogr
   - **H1 Headings:** Reduced to `2.5rem` and `2rem` for small screens correspondingly to lessen visual strain and prevent pages from appearing too heavy.
   - **General Bold Text:** Font weight reduced from default `700` to `600` for most bolded text, contributing to the overall lighter visual load.
 
-    ![Typography example](./documentation/images/typography.webp)
+    ![Typography example](documentation/images/typography.webp)
 
   - **Solving Page Combinations:** Specific combinations on the Solving page maintain a `font-weight: 700` but have increased `word-spacing: 0.5rem`. This ensures these critical sequences are easily discernible and highly readable as distinct combinations.
 
-    ![Combination example](./documentation/images/combination.webp)
+    ![Combination example](documentation/images/combination.webp)
 
 ### Imagery
 
@@ -150,21 +150,21 @@ Imagery across the website is selected and optimized to support the educational 
   - It is responsively cropped (wider for larger resolutions) to optimize space utilization on bigger screens, ensuring it remains impactful without dominating the layout.
   - Its minimalist nature contributes to the site's overall low visual load, providing a clear visual representation of the Rubik's Cube without being distracting.
 
-![Typography example](./documentation/images/index-images-resize.webp)
+![Typography example](documentation/images/index-images-resize.webp)
 
 - **Solving Page Images:**
 
   - Images illustrating solving steps are sourced directly from the reference guide (`SolveTheCube.com`), chosen specifically for their **minimalistic and highly understandable visual representations** of cube states and orientations (before and after applying combinations).
   - Their purpose is to provide clear, step-by-step visual guidance, crucial for users learning the method.
 
-    ![Solving images example](./documentation/images/solving-images.webp)
+    ![Solving images example](documentation/images/solving-images.webp)
 
 - **Speedcubing Page Images:**
 
   - **Competitor Pictures:** These are the most vibrant images on the site, due to their source. However, they are accepted in this context as the Speedcubing page is more information-dense, and these photos enhance the personal connection to the "legends."
   - **Competitor Region Flags:** Sourced from OpenMoji, these flag emojis were chosen for their **minimalistic design**, which helps to save space in the World Record table while concisely conveying regional information.
 
-    ![Solving images example](./documentation/images/speedcubing-images.webp)
+    ![Solving images example](documentation/images/speedcubing-images.webp)
 
 #### For all external image sources, see: [Credits](#credits)
 
@@ -185,26 +185,26 @@ The website was designed with a **mobile-first approach**, ensuring core usabili
   - The table is **responsive but disables word wrap** and introduces a **horizontal scrollbar** when content exceeds display width. This approach was chosen because compressing columns made information unreadable. The most critical information (date, time, competitor name, and region) remains visible, with less vital details like "competition" being the first to hide.
   - **Flag Emojis:** The use of flag emojis for competitor regions efficiently saves space while still providing intuitive visual information.
 
-    ![Tables comparison](./documentation/images/tables-comparison.webp)
+    ![Tables comparison](documentation/images/tables-comparison.webp)
 
 - **Speedcubing Page - Competitor Cards:**
 
   - These cards serve as a **visual extension of the World Record table**, introducing important names with key information and interesting facts.
   - Their design is **responsive**, arranging them side-by-side on larger screens and stacking them vertically on smaller screens, maintaining a consistent image-to-content ratio and aesthetic.
 
-    ![Tables comparison](./documentation/images/cube-legends-layout.webp)
+    ![Tables comparison](documentation/images/cube-legends-layout.webp)
 
 - **Speedcubing Page - Human Solve WR Video:**
 
   - The video is **hidden under a button**, reducing initial page load time and offering an interactive element. This also saves valuable screen space for users who may not wish to view the video immediately.
 
-    ![Button interaction](./documentation/images/human-solve-interaction.webp)
+    ![Button interaction](documentation/images/human-solve-interaction.webp)
 
 - **Speedcubing Page - Robotic Solve Video:**
 
   - This video utilizes a **responsive layout based on its 9:16 (YouTube Shorts) format**, optimizing viewing experience. On larger screens, it's placed to the right of the record details; on smaller screens, it moves below.
 
-    ![Button interaction](./documentation/images/robotic-solve.webp)
+    ![Button interaction](documentation/images/robotic-solve.webp)
 
 ### Accessibility
 
@@ -227,9 +227,9 @@ Accessibility was a key consideration in the website's development, aiming to pr
 
 To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed version on GitHub Pages. The final Lighthouse scores were all **97 or higher**.
 
-![Lighthouse Report Screenshot](./documentation/images/lighthouse.png)
+![Lighthouse Report Screenshot](documentation/images/lighthouse.png)
 
-Details on the improvements made to achieve high Lighthouse scores are available [here](./documentation/testing.md#lighthouse).
+Details on the improvements made to achieve high Lighthouse scores are available [here](documentation/testing.md#lighthouse).
 
 ## Technologies Used
 
@@ -272,7 +272,7 @@ I validated the deployed version of the website using the **official W3C tools**
 
 **All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
-You can find the validation-related fixes made during development by [this link](./documentation/testing.md#validation).
+You can find the validation-related fixes made during development by [this link](documentation/testing.md#validation).
 
 ## Deployment Process
 
@@ -281,7 +281,7 @@ I navigated to the **Repository Settings**, then to the **Pages** section. There
 
 ## Testing and Bugfixing
 
-For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[testing.md](./documentation/testing.md)**.
+For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[testing.md](documentation/testing.md)**.
 
 ## Credits
 
