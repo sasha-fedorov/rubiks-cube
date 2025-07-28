@@ -6,33 +6,6 @@ This is a personal portfolio project, focused on the **3×3 Rubik's Cube**.The w
 
 This website is **deployed using GitHub Pages** and can be accessed at: **[https://sasha-fedorov.github.io/rubiks-cube/](https://sasha-fedorov.github.io/rubiks-cube/)**
 
-## Contents
-
-- [User Experience (UX) & User Stories](#user-experience-ux--user-stories)
-  - [User Roles](#user-roles)
-  - [Features & User Stories](#features--user-stories)
-    - 1. [About the Cube (Main Page)](#1-about-the-cube-main-page)
-    - 2. [How to Solve It (Solving Page)](#2-how-to-solve-it-solving-page)
-    - 3. [Speedcubing (Speedcubing Page)](#3-speedcubing-speedcubing-page)
-  - [Design](#design)
-  - [Color Scheme](#color-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-  - [Features (Design Aspect)](#features-design-aspect)
-  - [Accessibility](#accessibility)
-  - [Lighthouse](#lighthouse)
-- [Technologies Used](#technologies-used)
-  - [Languages and Frameworks](#languages-and-frameworks)
-  - [Tools & Programs](#tools--programs)
-  - [Services](#services)
-- [Validation](#validation)
-  - [HTML Validation](#html-validation)
-  - [CSS Validation](#css-validation)
-- [Deployment Process](#deployment-process)
-- [Testing and Bugfixing](documentation/testing.md)
-- [Credits](#credits)
-- [License / Usage](#license--usage)
-
 ## User Experience (UX) & User Stories
 
 This section outlines the core user experience principles guiding the website's design and the specific user stories that each feature aims to address. The goal is to ensure the website is intuitive, engaging, and meets the needs of its diverse audience, achieved through a focus on **minimal visual load, clear information hierarchy, and thoughtful accessibility**.
@@ -229,7 +202,7 @@ To evaluate and enhance the site’s performance, accessibility, best practices,
 
 ![Lighthouse Report Screenshot](documentation/images/lighthouse.png)
 
-Details on the improvements made to achieve high Lighthouse scores are available [here](documentation/testing.md#lighthouse).
+Details on the improvements made to achieve high Lighthouse scores are available [here](TESTING.md#lighthouse).
 
 ## Technologies Used
 
@@ -272,7 +245,7 @@ I validated the deployed version of the website using the **official W3C tools**
 
 **All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
-You can find the validation-related fixes made during development by [this link](documentation/testing.md#validation).
+You can find the validation-related fixes made during development by [this link](TESTING.md#validation).
 
 ## Deployment Process
 
@@ -281,7 +254,7 @@ I navigated to the **Repository Settings**, then to the **Pages** section. There
 
 ## Testing and Bugfixing
 
-For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[testing.md](documentation/testing.md)**.
+For detailed information about testing, bugfixing, validation, and performance improvements, please refer to **[TESTING.md](TESTING.md)**.
 
 ## Credits
 
