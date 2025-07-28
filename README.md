@@ -247,10 +247,43 @@ I validated the deployed version of the website using the **official W3C tools**
 
 You can find the validation-related fixes made during development by [this link](TESTING.md#validation).
 
-## Deployment Process
+## Deployment & Local Development
 
-Deploying the static website using GitHub Pages was straightforward.
-I navigated to the **Repository Settings**, then to the **Pages** section. There, I selected Deploy from a branch as the source, chose the **master** branch, kept the default root (/), and clicked **Save**. After a short wait, the website became accessible via **[the link](https://sasha-fedorov.github.io/rubiks-cube/)**.
+### Deployment Process
+
+Deploying the static website using GitHub Pages was a straightforward process:
+
+1. **Navigate to Repository Settings:** From your GitHub repository, click on the **Settings** tab.
+2. **Access Pages Section:** In the left-hand sidebar, navigate to the **Pages** section.
+3. **Configure Deployment Source:**
+   - Under "Build and deployment," select "Deploy from a branch" as the source.
+   - Choose your primary branch (e.g., **master**) from the "Branch" dropdown.
+   - Keep the default root (`/`) for the folder.
+4. **Save Changes:** Click the **Save** button.
+5. **Access Website:** After a short wait (usually a few minutes for the build process to complete), your website will become accessible via **[the generated GitHub Pages link](https://sasha-fedorov.github.io/rubiks-cube/)**.
+
+### Local Development
+
+#### Cloning
+
+To clone the **Rubik's Cube** repository directly to your local machine:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project: **[sasha-fedorov/rubiks-cube](https://github.com/sasha-fedorov/rubiks-cube)**.
+3. Click on the **Code** button (usually green), select your preferred cloning method (HTTPS, SSH, or GitHub CLI), and copy the provided link.
+4. Open your **terminal** or **Git Bash**.
+5. Change the current working directory to the location where you want the cloned directory to be created.
+   - As example `cd Documents/GitHub_Projects`
+6. Type `git clone` into the **terminal** and then paste the link you copied in step 3. Press Enter.
+   - Example using HTTPS: `git clone https://github.com/sasha-fedorov/rubiks-cube.git`
+
+#### Forking
+
+To fork the **Rubik's Cube** repository to your own GitHub account:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project: **[sasha-fedorov/rubiks-cube](https://github.com/sasha-fedorov/rubiks-cube)**.
+3. Click the **Fork** button in the top right corner of the page. This will create a copy of the repository under your GitHub account.
 
 ## Testing and Bugfixing
 
