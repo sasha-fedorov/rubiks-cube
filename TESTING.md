@@ -60,6 +60,10 @@ However, a few adjustments were needed to fully pass validation — here are the
 
 ## Lighthouse
 
+To evaluate and enhance the site’s performance, accessibility, best practices, and SEO, I ran **[Lighthouse](https://developer.chrome.com/docs/lighthouse)** audits using the deployed version on GitHub Pages. The final Lighthouse scores were all **97 or higher**.
+
+![Lighthouse Report Screenshot](documentation/images/lighthouse.png)
+
 Below is a breakdown of the optimizations made to achieve high scores in each Lighthouse category:
 
 #### Performance
