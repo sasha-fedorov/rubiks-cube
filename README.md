@@ -236,14 +236,30 @@ I validated the deployed version of the website using the **official W3C tools**
 ### HTML Validation
 
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F)
+
+  ![Home Page validation](/documentation/images/validation-index.webp)
+
 - [How to Solve Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2Fsolving.html)
+
+  ![How to Solve Page validation](/documentation/images/validation-solving.webp)
+
 - [Speedcubing Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2Fspeedcubing.html)
+
+  ![Speedcubing Page validation](/documentation/images/validation-speedcubing.webp)
+
+- [404 Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F404.html)
+
+  ![404 Page validation](/documentation/images/validation-404.webp)
+
+**All tests passed with no errors or warnings**, as confirmed by the validation result links above.
 
 ### CSS Validation
 
-- [Main CSS File](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Website CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsasha-fedorov.github.io%2Frubiks-cube%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**All tests passed with no errors or warnings**, as confirmed by the validation result links above.
+  ![CSS validation](/documentation/images/validation-css.webp)
+
+**Test passed with no errors**, as confirmed by the validation result link above. All warnings came from Bootstrap.
 
 You can find the validation-related fixes made during development by [this link](TESTING.md#validation).
 
